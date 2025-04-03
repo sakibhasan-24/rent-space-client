@@ -1,3 +1,9 @@
+import Banner from "./Banner";
+
 export default function LandingPage() {
-  return <div>page</div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 }
