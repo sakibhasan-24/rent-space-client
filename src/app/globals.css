@@ -250,3 +250,24 @@ body,
 [data-close-button="true"] {
   @apply bg-background border-border text-foreground hover:bg-muted;
 }
+@keyframes borderAnimation {
+  0% {
+    border-color: red blue orange teal;
+  }
+  25% {
+    border-color: blue orange teal red;
+  }
+  50% {
+    border-color: orange teal red blue;
+  }
+  75% {
+    border-color: teal red blue orange;
+  }
+  100% {
+    border-color: red blue orange teal;
+  }
+}
+
+.animate-border {
+  animation: borderAnimation 4s infinite linear;
+}
