@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import CallToAction from "./CallToAction";
 import FeatureSection from "./FeatureSection";
 import WorkingFlow from "./WorkingFlow";
 
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <Banner />
       <FeatureSection />
       <WorkingFlow />
+      <CallToAction />
     </div>
   );
 }
