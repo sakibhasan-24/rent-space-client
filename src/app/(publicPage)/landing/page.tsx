@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import CallToAction from "./CallToAction";
 import FeatureSection from "./FeatureSection";
+import Footer from "./Footer";
 import WorkingFlow from "./WorkingFlow";
 
 export default function LandingPage() {
@@ -10,6 +11,7 @@ export default function LandingPage() {
       <FeatureSection />
       <WorkingFlow />
       <CallToAction />
+      <Footer />
     </div>
   );
 }
